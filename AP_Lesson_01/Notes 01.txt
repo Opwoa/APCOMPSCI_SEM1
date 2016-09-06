@@ -1,0 +1,6 @@
+Java
+	public class name must match file name
+	System.out.println("Print stuff")     also adds carriage return
+	inside print statements must use \ as escape character for \ and "
+ASCII Art
+	used println statements for each line
