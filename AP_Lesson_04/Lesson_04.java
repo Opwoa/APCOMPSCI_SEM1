@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Lesson_04 {
 	public static void main(String[]args) {
 		Lesson_04 form = new Lesson_04();
