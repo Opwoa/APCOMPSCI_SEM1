@@ -6,14 +6,12 @@ public class AvgCalc {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("How many pieces of data do you have?");
 		double n = keyboard.nextDouble();
-		double nMinusOne = n - 1;
-		
+
 		System.out.println("Enter each piece of data separated by a space");
 		double sum = 0;
 		for (int i = 0; i < n; i++) {
 			double currentNum = keyboard.nextDouble();
 			sum = sum + currentNum;
-			System.out.println(currentNum);
 		}
 		
 		double avg = sum / n;

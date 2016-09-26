@@ -10,7 +10,7 @@ public class SubWoofBox {
 		System.out.println("What is the width in inches?");
 		double width = keyboard.nextDouble();
 		System.out.println("What is the length in inches?");
-		double length = keyboard.nextInt();
+		double length = keyboard.nextDouble();
 
 		double vol = volume.calcVol(height, width, length);
 		System.out.printf("The volume of your sumbwoofer is %-3.2f cubic feet.\n", vol);
