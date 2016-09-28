@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cube {
+public class Circle {
 	static double r = 0;
 	static double area = 0;
 	
@@ -18,6 +18,6 @@ public class Cube {
 	}
 	
 	public static void print() {
-		System.out.printf("The of a circle with a radiusof %1.5f is %1.5f\n", r, area);
+		System.out.printf("The area of a circle with a radius of %1.5f is %1.5f\n", r, area);
 	}
 }
