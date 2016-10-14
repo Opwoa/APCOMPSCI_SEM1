@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Excercise5_2 {
+public class Excercise5_2 {				//exercise is spelled wrong but im too lazy to fix it
 	public static void main(String[]args) {
 		Scanner keyboard = new Scanner(System.in);
 		
