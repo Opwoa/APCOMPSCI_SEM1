@@ -34,18 +34,19 @@ public class AdventureGame {
 			System.out.println("Good. Life is dispair.");
 			System.out.println("");
 			if (keyboard.nextInt() == 1) {
-				System.out.println();
+				System.out.println("");
+				System.out.println("");
 				if (keyboard.nextInt() == 1) {
-					System.out.println();
+					System.out.println("");
 				} else {
-					System.out.println();
+					System.out.println("");
 				}
 			} else {
-				System.out.println();
+				System.out.println("");
 				if (keyboard.nextInt() == 1) {
-					System.out.println();
+					System.out.println("");
 				} else {
-					System.out.println();
+					System.out.println("");
 				}
 			}
 		}
