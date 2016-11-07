@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReplaceAts {
+public class Underscores {
 	public static void main(String[]args) {
 		Scanner keyboard = new Scanner(System.in);
 		
@@ -11,9 +11,10 @@ public class ReplaceAts {
 	}
 	
 	public static String replace(String sent) {
-		while (sent.contains("a")) {
-			sent = sent.substring(0, sent.indexOf("a")) + "@" + sent.substring(sent.indexOf("a") + 1);
+		if (!sent.contains(" ")) {
+			return sent;
+		} else {
+			return replace(sent.substring(0, sent.indexOf(" ")) + "_" + sent.substring(sent.indexOf(" ") + 1));
 		}
-		return sent;
 	}
 }
