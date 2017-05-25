@@ -361,13 +361,13 @@ public class Picture extends SimplePicture
   }
   
   public void copy(Picture fromPic, int startRow, int startCol, 
-				   int startTFromRow, int endFromRow,int startFromCol, int endFromCol)
+				   int startFromRow, int endFromRow,int startFromCol, int endFromCol)
   {
     Pixel fromPixel = null;
     Pixel toPixel = null;
     Pixel[][] toPixels = this.getPixels2D();
     Pixel[][] fromPixels = fromPic.getPixels2D();
-    for (int fromRow = startTFromRow, toRow = startRow; 
+    for (int fromRow = startFromRow, toRow = startRow; 
          fromRow < endFromRow &&
          toRow < toPixels.length; 
          fromRow++, toRow++)
